@@ -20,9 +20,9 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.myrecipebook.MainActivity;
-import com.example.myrecipebook.R;
-import com.example.myrecipebook.models.DetailRecipeModel;
+import com.example.myrecipebookapp.activities.MainActivity;
+import com.example.myrecipebookapp.R;
+import com.example.myrecipebookapp.models.DetailRecipeModel;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;

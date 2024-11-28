@@ -7,9 +7,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myrecipebook.R;
-import com.example.myrecipebook.adapters.DetailRecipeAdapter;
-import com.example.myrecipebook.models.DetailRecipeModel;
+import com.example.myrecipebookapp.R;
+import com.example.myrecipebookapp.adapters.DetailRecipeAdapter;
+import com.example.myrecipebookapp.models.DetailRecipeModel;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

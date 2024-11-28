@@ -18,7 +18,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.myrecipebook.R;
+import com.example.myrecipebookapp.R;
 import com.example.myrecipebookapp.models.UserData;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
