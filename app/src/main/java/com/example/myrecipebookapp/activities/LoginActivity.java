@@ -17,12 +17,16 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+
 public class LoginActivity extends AppCompatActivity {
 
     private EditText loginEmail, loginPassword;
     private TextView signupRedirectText;
     private Button loginButton;
     private FirebaseAuth auth;
+    private FirebaseAuth firebaseAuth;
+    private TextView tvForgotPassword;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +38,9 @@ public class LoginActivity extends AppCompatActivity {
         loginPassword = findViewById(R.id.login_password);
         loginButton = findViewById(R.id.login_button);
         signupRedirectText = findViewById(R.id.login_not_yet);
+        tvForgotPassword = findViewById(R.id.tvForgotPassword);
+        firebaseAuth = FirebaseAuth.getInstance();
+
 
         auth = FirebaseAuth.getInstance();
 
@@ -81,6 +88,17 @@ public class LoginActivity extends AppCompatActivity {
                 finish();
             }
         });
+        tvForgotPassword.setOnClickListener(v->  {
+            Intent intent = new Intent(LoginActivity.this, ForgotPasswordActivity.class);
+            startActivity(intent);
+        });
 
-    }
-}
+
+
+    }  }
+
+
+
+
+
+
