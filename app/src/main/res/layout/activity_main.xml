@@ -26,6 +26,16 @@
         app:itemIconTint="@color/darkgray"
 
         >
+        <TextView
+            android:id="@+id/welcomeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome te my Recipe Book"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:visibility="visible" />
 
         <Button
             android:id="@+id/logout_button"

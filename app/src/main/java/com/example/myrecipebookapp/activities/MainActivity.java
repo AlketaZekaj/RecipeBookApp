@@ -6,8 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.example.myrecipebookapp.databinding.ActivityMainBinding;
 import com.example.myrecipebookapp.models.UserData;
@@ -110,6 +113,13 @@ public class MainActivity extends AppCompatActivity {
                 logout();
             }
         });
+        Animation fadeIn = AnimationUtils.loadAnimation(this,R.anim.fade_in) ;
+        TextView textView = findViewById(R.id.welcomeTextView) ;
+        textView.startAnimation(fadeIn);
+        textView.postDelayed(()->{
+            textView.setVisibility(View.GONE);
+
+        },3000);
     }
 
     public void logout () {
