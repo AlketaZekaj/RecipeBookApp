@@ -9,8 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.myrecipebook.MainActivity;
-import com.example.myrecipebook.R;
+import com.example.myrecipebookapp.activities.MainActivity;
+import com.example.myrecipebookapp.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 //My Detailed recipe

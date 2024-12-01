@@ -13,10 +13,10 @@ import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 
-import com.example.myrecipebook.R;
-import com.example.myrecipebook.activities.MapDetailActivity;
-import com.example.myrecipebook.databinding.FragmentHomeBinding;
-import com.example.myrecipebook.models.LocationMarker;
+import com.example.myrecipebookapp.R;
+import com.example.myrecipebookapp.activities.MapDetailActivity;
+import com.example.myrecipebookapp.databinding.FragmentHomeBinding;
+import com.example.myrecipebookapp.models.LocationMarker;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.location.Priority;

@@ -10,11 +10,11 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myrecipebook.R;
-import com.example.myrecipebook.activities.UploadActivity;
-import com.example.myrecipebook.adapters.HomeItemAdapter;
-import com.example.myrecipebook.databinding.FragmentHomeBinding;
-import com.example.myrecipebook.models.HomeItemModel;
+import com.example.myrecipebookapp.R;
+import com.example.myrecipebookapp.activities.UploadActivity;
+import com.example.myrecipebookapp.adapters.HomeItemAdapter;
+import com.example.myrecipebookapp.databinding.FragmentHomeBinding;
+import com.example.myrecipebookapp.models.HomeItemModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.LinkedList;

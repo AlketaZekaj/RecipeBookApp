@@ -12,10 +12,10 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myrecipebook.DataClass;
-import com.example.myrecipebook.R;
-import com.example.myrecipebook.activities.DetailRecipeActivity;
-import com.example.myrecipebook.models.DetailRecipeModel;
+import com.example.myrecipebookapp.DataClass;
+import com.example.myrecipebookapp.R;
+import com.example.myrecipebookapp.activities.DetailRecipeActivity;
+import com.example.myrecipebookapp.models.DetailRecipeModel;
 import com.squareup.picasso.Picasso;
 
 import java.io.Serializable;

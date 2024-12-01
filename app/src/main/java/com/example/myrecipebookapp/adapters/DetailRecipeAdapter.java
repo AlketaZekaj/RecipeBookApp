@@ -18,10 +18,10 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myrecipebook.R;
-import com.example.myrecipebook.activities.UpdateActivity;
-import com.example.myrecipebook.models.CategoryModel;
-import com.example.myrecipebook.models.DetailRecipeModel;
+import com.example.myrecipebookapp.R;
+import com.example.myrecipebookapp.activities.UpdateActivity;
+import com.example.myrecipebookapp.models.CategoryModel;
+import com.example.myrecipebookapp.models.DetailRecipeModel;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;

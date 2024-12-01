@@ -13,10 +13,10 @@ import androidx.cardview.widget.CardView;
 import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myrecipebook.R;
-import com.example.myrecipebook.models.HomeItemModel;
-import com.example.myrecipebook.ui.categories.CategoryFragment;
-import com.example.myrecipebook.ui.home.HomeFragment;
+import com.example.myrecipebookapp.R;
+import com.example.myrecipebookapp.models.HomeItemModel;
+import com.example.myrecipebookapp.ui.categories.CategoryFragment;
+import com.example.myrecipebookapp.ui.home.HomeFragment;
 
 import java.util.List;
 
