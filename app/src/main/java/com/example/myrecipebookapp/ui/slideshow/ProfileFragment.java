@@ -12,9 +12,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.example.myrecipebook.R;
-import com.example.myrecipebook.activities.EditProfileActivity;
-import com.example.myrecipebook.models.UserData;
+import com.example.myrecipebookapp.R;
+import com.example.myrecipebookapp.activities.EditProfileActivity;
+import com.example.myrecipebookapp.models.UserData;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

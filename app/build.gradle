@@ -39,6 +39,7 @@ android {
         dataBinding true
 
     }
+    viewBinding {enable = true }
 }
 
 dependencies {
@@ -56,6 +57,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:21.1.0'
     implementation 'com.google.firebase:firebase-firestore:24.4.4'
     implementation 'com.google.firebase:firebase-crashlytics-buildtools:3.0.2'
+    implementation libs.androidx.ui.graphics.android
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
@@ -72,6 +74,7 @@ dependencies {
 
     implementation "org.mindrot:jbcrypt:0.4"
 
+    annotationProcessor "androidx.databinding:databinding-compiler:8.7.2"
 
 
 
