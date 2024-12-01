@@ -26,6 +26,18 @@
  ### Social Recipe Sharing
  #### Create and Share Profiles: Users can create profiles and share their own recipes with the community.
 
+# How application looks
+
+
+ 
+<img width="288" alt="Screenshot 2024-12-01 at 17 23 49" src="https://github.com/user-attachments/assets/e79b9e36-ff58-4dc1-8387-0060fad9d70d">
+<img width="295" alt="Screenshot 2024-12-01 at 17 24 45" src="https://github.com/user-attachments/assets/1470d7d7-f5d0-492d-b202-c6076a306867">
+<img width="269" alt="Screenshot 2024-12-01 at 17 26 04" src="https://github.com/user-attachments/assets/d24a7774-4ed9-434a-b5b7-d5ff86d7ea50">
+<img width="285" alt="Screenshot 2024-12-01 at 17 26 19" src="https://github.com/user-attachments/assets/19e47160-c22f-4ff5-93fb-aa3a81c21412">
+<img width="271" alt="Screenshot 2024-12-01 at 16 55 35" src="https://github.com/user-attachments/assets/819c37a7-349f-4c01-bf3c-ea14353f783c">
+<img width="285" alt="Screenshot 2024-12-01 at 16 55 45" src="https://github.com/user-attachments/assets/6ab32103-4d73-4cc9-9fe3-e64badb9540c">
+<img width="281" alt="Screenshot 2024-12-01 at 16 56 18" src="https://github.com/user-attachments/assets/907b800e-54f3-42e2-a248-7f228b6aaf90">
+
  
 
 
